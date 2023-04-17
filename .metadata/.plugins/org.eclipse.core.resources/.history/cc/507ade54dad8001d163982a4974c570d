@@ -1,0 +1,32 @@
+package kr.ac.kopo.day20;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class FileIOMain09 {
+
+	public static void write() {
+		
+		UserInfo user = new UserInfo("홍길동", 20, "010-1111-2222");
+		
+		FileOutputStream fos = null;
+		ObjectOutputStream oos = null;
+		try {
+			
+			fos = new FileOutputStream("doc/iotest/userInfo.dat");
+			oos = new ObjectOutputStream(fos);
+		
+			oos.write();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		write();
+		
+	}
+}

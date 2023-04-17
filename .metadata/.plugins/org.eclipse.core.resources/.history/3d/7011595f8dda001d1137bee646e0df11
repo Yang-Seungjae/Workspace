@@ -1,0 +1,13 @@
+package kr.ac.kopo.ui;
+
+import java.util.Scanner;
+
+public class BaseUI {
+
+	private Scanner sc;
+	
+	public BaseUI() {
+		sc = new Scanner(System.in);
+	}
+	
+}

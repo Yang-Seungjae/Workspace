@@ -1,0 +1,30 @@
+package kr.ac.kopo.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class InsertMain01 {
+
+	
+	public static void main(String[] args) {
+		
+		//1. 드라이버 로딩
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+		//2. 데이터 연결 후 연결객체 얻어오기
+			
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String user = "hr";
+			String password = "hr";
+			Connection conn = DriverManager.getConnection(url, user, password);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		//3. 쿼리를 생성하고
+		//4. 실행결과를 얻어오기'
+		//5. DB와 접속 종료
+		
+	}
+}

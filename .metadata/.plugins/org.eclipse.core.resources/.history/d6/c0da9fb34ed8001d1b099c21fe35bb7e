@@ -1,0 +1,22 @@
+package kr.ac.kopo.home.day13;
+
+import java.util.Arrays;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		
+		char[][] arr = new char[2][4];
+		
+		System.out.println(arr);
+	
+		for(char[] c : arr) {
+		
+		System.out.println(c);
+		
+	
+		}
+		
+	}
+}

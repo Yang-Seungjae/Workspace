@@ -1,0 +1,21 @@
+package kr.ac.kopo.jdbc;
+
+public class InsertMain01 {
+
+	
+	public static void main(String[] args) {
+		
+		//1. 드라이버 로딩
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		//2. 데이터 연결 후 연결객체 얻어오기
+		//3. 쿼리를 생성하고
+		//4. 실행결과를 얻어오기'
+		//5. DB와 접속 종료
+		
+	}
+}

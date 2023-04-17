@@ -1,0 +1,13 @@
+package kr.ac.kopo.jdbc;
+
+public class InsertMain03 {
+
+	
+	public static void main(String[] args) {
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		
+	}
+}
