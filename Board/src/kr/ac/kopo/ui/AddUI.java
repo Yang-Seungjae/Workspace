@@ -1,8 +1,17 @@
 package kr.ac.kopo.ui;
 
+import kr.ac.kopo.BoardServiceFactory;
+import kr.ac.kopo.service.BoardService;
 import kr.ac.kopo.vo.BoardVO;
 
-public class AddUI extends BaseUI{
+public class AddUI extends BaseUI {
+
+	private BoardService boardService;
+
+	public AddUI() {
+		boardService = BoardServiceFactory.getInstance();
+	}
+
 
 	@Override
 	public void execute() throws Exception {
@@ -14,12 +23,11 @@ public class AddUI extends BaseUI{
 		board.setTitle(title);
 		board.setWriter(writer);
 		
-		boardDao.insertBoard(board);
+		boardService.insertBoard(board);
 		
 		System.out.println("새글 등록을 완료하였습니다");
 		
-		
-		
 	}
 
+	
 }
