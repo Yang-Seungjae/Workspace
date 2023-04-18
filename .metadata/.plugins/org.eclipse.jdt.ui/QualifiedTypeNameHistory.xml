@@ -17,14 +17,21 @@
     <fullyQualifiedTypeName name="kr.ac.kopo.ui.IBoardUI"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.nio.file.attribute.AclEntry"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="kr.ac.kopo.dao.BoardDAO"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="kr.ac.kopo.vo.MemberVO"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="kr.ac.kopo.dao.LibDAO"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.LibServiceFactory"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.Service.LibService"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.vo.BookVO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.ui.LoginUI"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.ui.LibUI"/>
 </qualifiedTypeNameHistroy>
