@@ -34,4 +34,5 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="kr.ac.kopo.ui.LoginUI"/>
     <fullyQualifiedTypeName name="kr.ac.kopo.ui.LibUI"/>
+    <fullyQualifiedTypeName name="kr.ac.kopo.vo.RentalBookVO"/>
 </qualifiedTypeNameHistroy>
